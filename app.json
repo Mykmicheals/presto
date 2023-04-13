@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "fintech",
+    "slug": "fintech",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
