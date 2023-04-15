@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
+import { center } from "../styles/HomeStyles";
 
 var tableData = [
   { value: "Less than 100", rate: 520 },
@@ -9,7 +10,7 @@ var tableData = [
 
 const Table = () => {
   return (
-    <View className="flex flex-row gap-20">
+    <View className={`${center} flex flex-row gap-20`}>
       <View>
         <Text className="mb-2">Value</Text>
         {tableData.map((each) => {
