@@ -12,7 +12,7 @@ const BtnPurple = (props) => {
         end={{ x: 1, y: 1 }}
         className="px-10 my-3 rounded-lg  h-12 flex items-center justify-center w-80"
       >
-        <Text className="text-center align-center text-white">
+        <Text className="font-[500] text-lg text-center align-center text-white">
           {props.title}
         </Text>
       </LinearGradient>

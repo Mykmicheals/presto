@@ -9,7 +9,7 @@ import UploadInput from "../components/UploadInput";
 const HomeScreen = () => {
   return (
     <SafeAreaView className="flex-1 items-center mt-16 w-full bg-white">
-      <Text style={styles.styleHeader} className="text-2xl mb-4">
+      <Text className="text-2xl mb-4">
         Select Bitcoin
       </Text>
       <View>
@@ -29,7 +29,7 @@ const HomeScreen = () => {
           <UploadInput />
         </View>
         <View className="w-80">
-          <Text className="items-left mb-4">BTC Rates Table</Text>
+          <Text className="ml-4 items-left mb-4">BTC Rates Table</Text>
           <Table />
         </View>
       </View>

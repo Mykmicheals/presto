@@ -14,6 +14,11 @@
 		96905EF65AED1B983A6B3ABC /* libPods-fintech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-fintech.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		088AC4EE461D458CB55A6855 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC78E50BF13B4FC38AC0805D /* Quicksand-Bold.ttf */; };
+		C20F96D1AD9E4ADB83DE32EB /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5525C7B384D348DDF2BC4 /* Quicksand-Light.ttf */; };
+		5C0E059F9793432186FAE5BA /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19215BA842A43958C1D133A /* Quicksand-Medium.ttf */; };
+		550E56DE18B84F4D9A813DC8 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2212105736459D834BFD86 /* Quicksand-Regular.ttf */; };
+		5ABC7E053C1E4BDCA9CE20CA /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 423967D19AC14A4F8BB5F599 /* Quicksand-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-fintech/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		EC78E50BF13B4FC38AC0805D /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; name = "Quicksand-Bold.ttf"; path = "../src/assests/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DD5525C7B384D348DDF2BC4 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; name = "Quicksand-Light.ttf"; path = "../src/assests/fonts/Quicksand-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E19215BA842A43958C1D133A /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; name = "Quicksand-Medium.ttf"; path = "../src/assests/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C2212105736459D834BFD86 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; name = "Quicksand-Regular.ttf"; path = "../src/assests/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		423967D19AC14A4F8BB5F599 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; name = "Quicksand-SemiBold.ttf"; path = "../src/assests/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				9C3F428CD4F74F76B548E156 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -132,6 +143,19 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		9C3F428CD4F74F76B548E156 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EC78E50BF13B4FC38AC0805D /* Quicksand-Bold.ttf */,
+				4DD5525C7B384D348DDF2BC4 /* Quicksand-Light.ttf */,
+				E19215BA842A43958C1D133A /* Quicksand-Medium.ttf */,
+				1C2212105736459D834BFD86 /* Quicksand-Regular.ttf */,
+				423967D19AC14A4F8BB5F599 /* Quicksand-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,6 +220,11 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				088AC4EE461D458CB55A6855 /* Quicksand-Bold.ttf in Resources */,
+				C20F96D1AD9E4ADB83DE32EB /* Quicksand-Light.ttf in Resources */,
+				5C0E059F9793432186FAE5BA /* Quicksand-Medium.ttf in Resources */,
+				550E56DE18B84F4D9A813DC8 /* Quicksand-Regular.ttf in Resources */,
+				5ABC7E053C1E4BDCA9CE20CA /* Quicksand-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +339,7 @@
 				INFOPLIST_FILE = fintech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                                MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -334,7 +363,7 @@
 				INFOPLIST_FILE = fintech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                                MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
