@@ -9,18 +9,25 @@ var tableData = [
 
 const Table = () => {
   return (
-
     <View className="flex flex-row gap-20">
       <View>
-        <Text className='mb-2'>Value</Text>
+        <Text className="mb-2">Value</Text>
         {tableData.map((each) => {
-          return <Text className='mb-1'>{each.value}</Text>;
+          return (
+            <Text key={each.name} className="mb-3 text-blue-900">
+              {each.value}
+            </Text>
+          );
         })}
       </View>
       <View>
-        <Text className='mb-2'>Rate</Text>
+        <Text className="mb-2">Rate</Text>
         {tableData.map((each) => {
-          return <Text className='mb-1'>{each.rate}</Text>;
+          return (
+            <Text key={each.name} className="mb-3 text-blue-900">
+              {each.rate}
+            </Text>
+          );
         })}
       </View>
     </View>
